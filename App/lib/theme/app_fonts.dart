@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 /// Configuration for how text is displayed: font, fill color, stroke (border), and shadows.
 /// Use [AppFonts] to get predefined styles or build custom ones.
@@ -16,7 +15,7 @@ class FontDisplayStyle {
     this.shadows = const [],
   });
 
-  /// Base [TextStyle] (e.g. from Google Fonts). If set, overrides fontFamily/fontSize/fontWeight/letterSpacing.
+  /// Base [TextStyle] (e.g. from [AppFonts.myFont]). If set, overrides fontFamily/fontSize/fontWeight/letterSpacing.
   final TextStyle? baseStyle;
 
   /// Font family name when [baseStyle] is null.
@@ -131,13 +130,18 @@ class AppFonts {
     color: shadowMauve,
   );
 
+  /// Dancing Script Regular — use for Splash/Hello body text.
+  static const String myFontFamily = 'DancingScriptRegular';
+  /// Dancing Script Bold — use for Splash/Hello titles.
+  static const String myFontFamilyBold = 'DancingScriptBold';
+
   // ---------- Predefined styles ----------
 
-  /// "Be With Me" title style: Dancing Script, brown fill, cream stroke 2px, mauve drop shadow.
+  /// "Be With Me" title style: Dancing Script Bold, brown fill, cream stroke 2px, mauve drop shadow.
   static FontDisplayStyle get titleBeWithMe => FontDisplayStyle(
-        baseStyle: GoogleFonts.dancingScript(
+        baseStyle: TextStyle(
+          fontFamily: myFontFamilyBold,
           fontSize: 28,
-          fontWeight: FontWeight.w600,
           letterSpacing: 0.5,
         ),
         color: fillBrown,
@@ -171,10 +175,9 @@ class AppFonts {
     );
   }
 
-  /// Convenience: build a style using Dancing Script.
-  static FontDisplayStyle dancingScript({
+  /// Convenience: build a style using Dancing Script Regular.
+  static FontDisplayStyle myFont({
     double fontSize = 18,
-    FontWeight fontWeight = FontWeight.normal,
     double letterSpacing = 0,
     required Color color,
     Color? strokeColor,
@@ -182,11 +185,31 @@ class AppFonts {
     List<Shadow> shadows = const [],
   }) {
     return FontDisplayStyle(
-      baseStyle: GoogleFonts.dancingScript(
-        fontSize: fontSize,
-        fontWeight: fontWeight,
-        letterSpacing: letterSpacing,
-      ),
+      fontFamily: myFontFamily,
+      fontSize: fontSize,
+      fontWeight: FontWeight.normal,
+      letterSpacing: letterSpacing,
+      color: color,
+      strokeColor: strokeColor,
+      strokeWidth: strokeWidth,
+      shadows: shadows,
+    );
+  }
+
+  /// Convenience: build a style using Dancing Script Bold.
+  static FontDisplayStyle myFontBold({
+    double fontSize = 18,
+    double letterSpacing = 0,
+    required Color color,
+    Color? strokeColor,
+    double strokeWidth = 0,
+    List<Shadow> shadows = const [],
+  }) {
+    return FontDisplayStyle(
+      fontFamily: myFontFamilyBold,
+      fontSize: fontSize,
+      fontWeight: FontWeight.normal,
+      letterSpacing: letterSpacing,
       color: color,
       strokeColor: strokeColor,
       strokeWidth: strokeWidth,

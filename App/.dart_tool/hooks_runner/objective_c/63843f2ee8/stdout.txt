@@ -1,0 +1,51 @@
+Running `(cd /Users/rentamac/.pub-cache/hosted/pub.dev/objective_c-9.3.0/; TMPDIR=/var/folders/x5/v7332g9j6b9cc56pxwqmlm_r0000gn/T/ PATH=/Applications/Xcode.app/Contents/SharedFrameworks/SwiftBuild.framework/Versions/A/PlugIns/SWBBuildService.bundle/Contents/PlugIns/SWBUniversalPlatformPlugin.bundle/Contents/Frameworks/SWBUniversalPlatform.framework/Resources:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin HOME=/Users/rentamac /Users/rentamac/development/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/package_config.json /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/objective_c/63843f2ee8/hook.dill --config=/Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/objective_c/63843f2ee8/input.json )`.
+INFO: 2026-03-13 12:25:51.990328: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-03-13 12:25:52.080226: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-03-13 12:25:52.092464: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -target arm64-apple-ios -mios-version-min=13 -c /Users/rentamac/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c.c -fpic -I src -o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.c.o
+
+art_api_dl.c.o
+
+INFO: 2026-03-13 12:25:52.092676: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/rentamac/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c.m -fpic -I src -o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.m.o
+
+ream_adapter.m.o
+
+INFO: 2026-03-13 12:25:52.092835: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/rentamac/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/ns_number.m -fpic -I src -o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/ns_number.m.o
+INFO: 2026-03-13 12:25:52.092914: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/rentamac/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/protocol.m -fpic -I src -o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/protocol.m.o
+INFO: 2026-03-13 12:25:52.092991: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/rentamac/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c_bindings_generated.m -fpic -I src -o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-03-13 12:25:52.149603: 
+INFO: 2026-03-13 12:25:52.149700: 
+INFO: 2026-03-13 12:25:52.149723: Generated /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.c.o
+INFO: 2026-03-13 12:25:52.149828: 
+INFO: 2026-03-13 12:25:52.149838: 
+INFO: 2026-03-13 12:25:52.149845: Generated /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-03-13 12:25:52.157998: 
+INFO: 2026-03-13 12:25:52.158030: 
+INFO: 2026-03-13 12:25:52.158040: Generated /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/protocol.m.o
+
+INFO: 2026-03-13 12:25:52.165350: 
+INFO: 2026-03-13 12:25:52.165411: 
+INFO: 2026-03-13 12:25:52.165433: Generated /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/observer.m.o
+
+INFO: 2026-03-13 12:25:52.234299: 
+INFO: 2026-03-13 12:25:52.234370: 
+INFO: 2026-03-13 12:25:52.234391: Generated /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-03-13 12:25:52.254244: 
+INFO: 2026-03-13 12:25:52.254297: 
+INFO: 2026-03-13 12:25:52.254315: Generated /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.m.o
+
+INFO: 2026-03-13 12:25:52.254565: 
+INFO: 2026-03-13 12:25:52.254596: 
+INFO: 2026-03-13 12:25:52.254614: Generated /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/ns_number.m.o
+
+INFO: 2026-03-13 12:25:52.266746: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk -target arm64-apple-ios -mios-version-min=13 /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/include/dart_api_dl.c.o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.c.o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/input_stream_adapter.m.o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.m.o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/observer.m.o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/ns_number.m.o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/protocol.m.o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c_bindings_generated.m.o -o /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/objective_c.dylib
+
+INFO: 2026-03-13 12:25:52.358585: 
+INFO: 2026-03-13 12:25:52.358631: ld: warning: -undefined dynamic_lookup is deprecated on iOS
+
+INFO: 2026-03-13 12:25:52.358643: Generated /Users/rentamac/Documents/Projects/BeWithMe/App/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/objective_c.dylib
+
